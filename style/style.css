@@ -1,0 +1,39 @@
+body {
+
+    margin: 0;
+}
+
+nav {
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 8fr;
+}
+
+header {
+
+    height: 10%;
+}
+
+main {
+
+    height: 80%;
+}
+
+ul {
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+footer {
+
+    height: 10%;
+}
